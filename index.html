@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Just Poke Sushi</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Just Poke Sushi</h1>
-    <nav>
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="hero">
+    <img src="images/logo.png" alt="Just Poke Logo" class="logo" />
+    <h1>Fresh Poke Bowls</h1>
+    <a href="#menu" class="btn">Explore Menu</a>
   </header>
 
-  <section id="hero">
-    <h2>Fresh, Delicious Sushi Bowls</h2>
-    <p>Experience the taste of authentic poke bowls crafted with love.</p>
-    <a href="#menu" class="btn">See Our Menu</a>
-  </section>
-
   <section id="menu">
-    <h2>Our Menu</h2>
-    <ul>
-      <li>Classic Poke Bowl - Tuna, Rice, Veggies</li>
-      <li>Spicy Salmon Bowl - Salmon, Rice, Spicy Sauce</li>
-      <li>Veggie Delight - Tofu, Rice, Mixed Greens</li>
-    </ul>
+    <h2>Menu</h2>
+    <!-- Add cards/images for bowls -->
   </section>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Us</h2>
-    <p>Just Poke Sushi is your go-to spot for fresh poke bowls made with the finest ingredients.</p>
+    <p>Just Poke is all about fresh, healthy, fast, and delicious poke bowls.</p>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: info@justpokesushi.com</p>
-    <p>Phone: 123-456-7890</p>
-    <p>Address: 123 Sushi St, Food City</p>
+  <section id="locations">
+    <h2>Locations</h2>
+    <!-- Add map or address list -->
   </section>
 
   <footer>
     <p>© 2025 Just Poke Sushi</p>
   </footer>
+
+  <script src="scripts.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
