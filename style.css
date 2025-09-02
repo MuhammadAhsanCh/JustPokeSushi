@@ -220,7 +220,7 @@ z-index: 2;
 .categories-container .box .bx {
   padding: 10px;
   background: var(--green-color);
-  color: var(--bg-color);
+  color: inherit;
   border-radius: 5rem;
   margin-top: 2rem;
   position: absolute;
