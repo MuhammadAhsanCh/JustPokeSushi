@@ -95,6 +95,7 @@ header{
 }
 .container{
  position: relative;
+ padding-top: 120px;
  width: 100%;
  min-height: 640px;
  display: flex;
@@ -113,6 +114,8 @@ header{
 }
 .home-text{
 padding: 0 150px;
+position: relative;
+z-index: 2;
 }
 .home-text span{
   font-weight: 400;
