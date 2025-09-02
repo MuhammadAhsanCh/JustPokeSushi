@@ -107,7 +107,7 @@ header{
 .container img{
   width: 400px;
   position: absolute;
-  bottom: -500px;
+  bottom: 0;
   right: 200px;
 }
 .home-text{
@@ -132,7 +132,7 @@ padding: 0 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 00.5rem;
+  column-gap: 0.5rem;
   max-width: 160px;
 }
 .btn .bx{

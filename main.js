@@ -1,10 +1,10 @@
 // Swiper
 var swiper = new Swiper(".home", {
     spaceBetween: 30,
-    centeredSliders: true,
+    centeredSlides: true,
 
     navigation: {
-        nextE1: ".swiper-button-next",
-        prevE1: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
