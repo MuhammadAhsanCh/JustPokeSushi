@@ -6,29 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Just Poke & Sushi</title>
   <link rel="stylesheet" href="style.css" />
-<!--Header Starts here-->
-  <style>
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-    header img{
-      height: 50px;
-    }
-    header h1{
-      font-size: 1.5rem;
-      margin: 0;
-    }
+  <!-- Box Icons -->
+   <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   </style>
 </head>
 <body>
-  <!--Header image-->
+  <!--NavBar-->
   <header>
-    <img src="images/Logo.jpg" alt="logo"/>
+    <a href="#" class="logo"><i class='bxr  bx-basket'  ></i>JustPoke&Sushi</a>
+    <!--Menu-->
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <!--Nav List-->
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">Home</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#customers">Customers</a></li>
+    </ul>
+    <!--Profile-->
+    <div class="profile">
+      <img src="images/Logo.jpg" alt="">
+      <span>Hammad Ahmed</span>
+      <i class='bxr  bx-caret-down'  ></i> 
+    </div>
   </header>
 </body>
 </html>
