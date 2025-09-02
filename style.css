@@ -108,7 +108,7 @@ header {
 }
 .container img {
   width: 400px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 200px;
 }
