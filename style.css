@@ -103,6 +103,7 @@ header{
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center; 
+ overflow: hidden;
 }
 .container img{
   width: 400px;
