@@ -19,6 +19,15 @@
   --text-color: #1a2428;
   --bg-color: #fff; 
 }
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--light-green-color);
+}
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background: var(--green-color);
+  border-radius: 5rem;
+}
 section {
   padding: 4.5rem 0 1.5rem;
 }
@@ -446,6 +455,10 @@ z-index: 2;
 }
 .footer-box form .bxs-envelope {
   color: var(--green-color);
+}
+.copyright {
+  text-align: center;
+  padding: 20px;
 }
 
 
