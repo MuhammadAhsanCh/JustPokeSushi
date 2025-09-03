@@ -307,3 +307,45 @@ z-index: 2;
   font-size: 20px;
   color: var(--light-orange-color);
 }
+
+
+/* -------- Mobile (<= 768px) -------- */
+@media (max-width: 768px) {
+  /* Header */
+  header { padding: 12px 16px; }
+  #menu-icon { display: block; font-size: 28px; color: var(--text-color); }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0; right: 0;
+    background: var(--bg-color);
+    border-top: 1px solid #eee;
+    display: none;
+    flex-direction: column;
+    padding: 10px 16px;
+  }
+  .navbar a { padding: 12px 8px; display: block; }
+
+  /* Show menu when active */
+  .navbar.active { display: flex; }
+
+  /* Hero / Swiper */
+  .home.swiper { height: 60vh; }
+  .swiper-slide { padding: 0 16px; gap: 0.75rem; }
+  .home-text { padding: 0 16px; }
+  .home-text h1 { font-size: 1.8rem; }
+  .container img { width: 55vw; right: 8px; bottom: 0; }
+
+  /* Buttons */
+  .btn { padding: 0.6rem 1rem; gap: 8px; }
+
+  /* Profile (optional hide on mobile) */
+  .profile { display: none; }
+}
+
+/* -------- Small phones (<= 480px) -------- */
+@media (max-width: 480px) {
+  .home.swiper { height: 52vh; }
+  .home-text h1 { font-size: 1.5rem; }
+  header { padding: 10px 12px; }
+}

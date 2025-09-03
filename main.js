@@ -8,3 +8,10 @@ var swiper = new Swiper(".home", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// Mobile menu toggle
+const menuIcon = document.getElementById('menu-icon');
+const navbar   = document.querySelector('.navbar');
+menuIcon.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
